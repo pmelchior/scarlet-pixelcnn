@@ -155,7 +155,7 @@ def _make_galaxy(params):
 
     gal = galsim.RealGalaxy(real_params,
                             noise_pad_size=stamp_size * pixel_scale) #, flux=1.0), use flux=1 to normalize
-    psf = galsim.Gaussian(fwhm=0.06)
+    psf = galsim.Gaussian(fwhm=0.1)
     gal = galsim.Convolve(gal, psf)
 
     # Random rotation of the galaxy
