@@ -1,0 +1,3 @@
+[submodule "pixel-cnn"]
+	path = pixel-cnn
+	url = https://github.com/openai/pixel-cnn.git
